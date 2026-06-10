@@ -1,0 +1,50 @@
+[
+    {
+        "task": "task1",
+        "type": "Count",
+        "muilti_round": "False",
+        "template1": "How many times does the string {token} appear in the following text? Text: {token} {token} {token} {token} {token} {token}"
+    },
+    {
+        "task": "task2",
+        "type": "Length",
+        "muilti_round": "False",
+        "template1": "How many characters are in the string {token} ?"
+    },
+    {
+        "task": "task3",
+        "type": "Semantics",
+        "muilti_round": "False",
+        "template1": "What does the string {token} mean? "
+    },
+    {
+        "task": "task4",
+        "type": "Basic Construction",
+        "muilti_round": "False",
+        "template1": "Please construct a simple sentence using the string word {token}."
+    },            
+    {
+        "task": "task5",
+        "type": "Restrict Construction",
+        "muilti_round": "False",
+        "template1": "Please construct a paragraph using the string word {token} at least twice."
+    },     
+    {
+        "task": "task6",
+        "type": "Repetition",
+        "muilti_round": "False",
+        "template1": "Please repeat the string {token} and return back to me."
+    },
+    {
+        "task": "task7",
+        "type": "Spelling",
+        "muilti_round": "False",
+        "template1": "Please spell out the string {token} with hyphens between each letter."
+    },
+    {
+        "task": "task8",
+        "type": "Consistency",
+        "muilti_round": "False",
+        "template1": "I want to learn this string {token}, tell me how to learn about this {token}. What was the string I wanted to learn about?"
+    }
+]
