@@ -252,7 +252,7 @@ python glitch_repair.py \
 
 This research is intended to improve the safety and robustness of Large Language Models by identifying and repairing glitch tokens. We acknowledge the dual-use potential of glitch token detection tools. To mitigate risks:
 
-1. The provided `glitch_tokens_tiny.json` is a small randomly sampled subset intended solely for artifact evaluation purposes.
+1. The provided `glitch_tokens_tiny.json` is a small randomly sampled subset intended solely for evaluation purposes.
 2. This repository is prohibited from being used for any malicious purposes, including but not limited to exploiting glitch tokens to induce harmful model behaviors.
 
 We encourage responsible use of this research to advance LLM safety.
