@@ -148,7 +148,7 @@ Example `Mistral-7B-Instruct-v0.2_detection_stats.json`:
 
 GlitchEdit repairs glitch tokens by modifying their embeddings through interpolation with similar normal tokens. It performs a grid search over interpolation parameters (alpha, k) to find the optimal repair. The output contains only repair results and fix rate metrics.
 
-To balance evaluation time and ethical considerations, we provide a **tiny set** (`glitch_tokens_tiny.json`) containing 400 randomly sampled glitch tokens for testing. The full glitch token list is available upon request through an authorization process.
+To balance evaluation time and ethical considerations, we provide a **tiny set** (`glitch_tokens_tiny.json`) containing 400 randomly sampled glitch tokens for testing. 
 
 ### Usage
 
